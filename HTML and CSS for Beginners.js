@@ -1,0 +1,95 @@
+//  by clicking on the show result button with id firstbutton
+var btn = document.getElementById("firstbutton");
+if (btn.innerHTML != "Hide Results") {
+  btn.addEventListener("click", displayHeadings);
+}else {
+  btn.addEventListener("click", hideHeadings);
+}
+
+function displayHeadings() {
+  btn.innerHTML = "Hide Results";
+  var affectstyling = document.getElementById("displayheadings").style.display = "block";
+  btn.addEventListener("click", hideHeadings);
+}
+
+function hideHeadings() {
+  btn.innerHTML = "Show Results";
+  var affectstyling = document.getElementById("displayheadings").style.display = "none";
+  btn.addEventListener("click", displayHeadings);
+}
+//  by clicking on the show result button with id secondbutton
+var btn2 = document.getElementById("secondbutton");
+if (btn2.innerHTML != "Hide Results") {
+  btn2.addEventListener("click", displayFormatedText);
+}else {
+  btn2.addEventListener("click", hideFormatedText);
+}
+
+function displayFormatedText() {
+  btn2.innerHTML = "Hide Results";
+  var affectstyling = document.getElementById("displayformatedtext").style.display = "block";
+  btn2.addEventListener("click", hideFormatedText);
+}
+
+function hideFormatedText() {
+  btn2.innerHTML = "Show Results";
+  var affectstyling = document.getElementById("displayformatedtext").style.display = "none";
+  btn2.addEventListener("click", displayFormatedText);
+}
+//  by clicking on the show result button with id thirdbutton
+var btn3 = document.getElementById("thirdbutton");
+if (btn3.innerHTML != "Hide Results") {
+  btn3.addEventListener("click", displayPicture);
+}else {
+  btn3.addEventListener("click", hidePicture);
+}
+
+function displayPicture() {
+  btn3.innerHTML = "Hide Results";
+  var affectstyling = document.getElementById("displaypicture").style.display = "block";
+  btn3.addEventListener("click", hidePicture);
+}
+
+function hidePicture() {
+  btn3.innerHTML = "Show Results";
+  var affectstyling = document.getElementById("displaypicture").style.display = "none";
+  btn3.addEventListener("click", displayPicture);
+}
+//  by clicking on the show result button with id fourthbutton
+var btn4 = document.getElementById("fourthbutton");
+if (btn4.innerHTML != "Hide Results") {
+  btn4.addEventListener("click", displayTable);
+}else {
+  btn4.addEventListener("click", hideTable);
+}
+
+function displayTable() {
+  btn4.innerHTML = "Hide Results";
+  var affectstyling = document.getElementById("displaytable").style.display = "block";
+  btn4.addEventListener("click", hideTable);
+}
+
+function hideTable() {
+  btn4.innerHTML = "Show Results";
+  var affectstyling = document.getElementById("displaytable").style.display = "none";
+  btn4.addEventListener("click", displayTable);
+}
+//  by clicking on the show result button with id fifthbutton
+var btn5 = document.getElementById("fifthbutton");
+if (btn5.innerHTML != "Hide Results") {
+  btn5.addEventListener("click", displayList);
+}else {
+  btn5.addEventListener("click", hideList);
+}
+
+function displayList() {
+  btn5.innerHTML = "Hide Results";
+  var affectstyling = document.getElementById("displaylist").style.display = "block";
+  btn5.addEventListener("click", hideList);
+}
+
+function hideList() {
+  btn5.innerHTML = "Show Results";
+  var affectstyling = document.getElementById("displaylist").style.display = "none";
+  btn5.addEventListener("click", displayList);
+}
