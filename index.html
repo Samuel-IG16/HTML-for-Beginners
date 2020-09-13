@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- Scale to device view -->
+		<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1" >
+		<!-- link to css internal stylesheet -->
+		<link rel="stylesheet" href="HTML and CSS for Beginners.css">
+		<!-- Link to External stylesheet -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Page title -->
+		<title>HTML for Beginners</title>
+	</head>
+	<body>
+		<!-- The Header of the page -->
+		<header class="jumbotron" style="background-color: black; background-image:url(keyboard.jpg);">
+			<!-- Heading -->
+			<h1 class="display-4" id="navtitle">Html Beginner's Class</h1>
+			<!-- Navigation bar -->
+			<nav class="navbar navbar-dark bg-dark">
+				<!-- Brand picture and name -->
+				<a class="navbar-brand mb-0 h1" href="#">
+					<img class="d-inline-block align-top" width="30px" height="30px" alt="" src="Logo.jpg">
+					ExenexMedia
+				</a>
+				<!-- Button to display nav content -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- A div that houses element that will go inside the button -->
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link" href="#ch1">Introduction</a>
+						<a class="nav-item nav-link" href="#ch2">What is HTML</a>
+						<a class="nav-item nav-link" href="#ch3">Why Learn HTML</a>
+						<a class="nav-item dropdown nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Getting Started with HTML</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#ch4">Create, Edit and Save</a>
+							<a class="dropdown-item" href="HTML and CSS for Beginners(2).html">Commmenting in HTML</a>
+							<a class="dropdown-item" href="HTML and CSS for Beginners(2).html">HTML Elements and Attributes</a>
+							<a class="dropdown-item" href="HTML and CSS for Beginners(2).html">HTML Responsiveness and Structure of Webpages</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Main Content -->
+		<main>
+				<!-- First section -->
+				<section>
+						<h3 id="ch1">Introduction</h3>
+						<p>Hey! I'm <strong><em>Samuel IG</em></strong>, short for <b><em>Samuel Igbinijesu</em></b> incase you are wondering. I'm so excited you are finally going to learn <b>HTML(<i>Hyper Text Mark-up language</i>)</b>. Coding has changed my world. It's not just about apps and games. Learning to code gave me <em><u>problem-solving skills</u></em> and a way to communicate with others on a technical level. I can also develop website and games. Awesome! right? not to worry, you'll get there with <b>deligence</b> and <b>dedication</b>. With that said, let's get started learning HTML.</p>
+						<q cite="">The journey of a thousand miles begins with the first step</q>
+						<br>
+				</section>
+				<br>
+				<section>
+						<h3 id="ch1">How The Web Works</h3>
+						<p>What happens when you are at home and you open up your browser and visit a website?</p>
+						<p>Let's break down the basic steps!</p>
+						<ul class="list">
+							<li>You start of by typing a <em>URL</em> into your browser e.g. www.google.com.</li>
+							<li>Then your computer sends this request as a packet, which includes the IP address of the website you want.</li>
+							<li>The IP address allows servers later on to help identify what website you are looking for.</li>
+							<li>It sends this request through wires, or a satellite which eventually links to wires using your internet service provider. So if you are at home your request is either sent through copper wires or optic fibre wires to the server you are about to reach or if you are on your cell phone, it links to satellite which links back down to earth which then ends up going to some sort of physical wire. On a basic level the internet is just wires connecting computers with some sort protocol.</li>
+							<li>So your ISP(Internet Service Provider) will then re-route the request through appropriate server location, using the IP address as the guide.</li>
+							<li>Once your request reaches the server it can send back the website you were asking for.</li>
+							<li>However a full website with content is too big to send as a single packet of data.</li>
+							<li>To solve this the server sends back the website split up into many packets.</li>
+							<li>The packets come with instructions on how to get back to you and reassemble once they reach you.</li>
+							<li>The packets don't actually care how they get to you just the final location so these packets may take different paths to get back to your computer or cell phone, what they really care about is the fastest way to get to your destination and your home IP address.</li>
+							<li>Once the packets reaches you they reassemble to show the page.</li>
+							<li>All of this moves at close to the speed of light, so it happens very fast.</li>
+						</ul>
+						<br>
+						<p>Okay now that we have a high level over-view of the web, let's go ahead and learn HTML.</p>
+						<br>
+				</section>
+				<br>
+				<!-- Second section -->
+				<section>
+					<h3 id="ch2">What is HTML?</h3>
+					<p>Have you ever wondered how webpages are built?. Well the whole essence of this programming language (HTML) is to build websites(Web Development) using codes. HTML stand for <em><u>Hyper Text Mark-up Language</u></em>. Unlike <b>Javascript</b> and <b>Python</b> which are scripting languages, HTML is referred to as a <em>'...Mark-up...'</em> language because it identifies content with the use of <b>tags</b>.</p>
+					<pre class="blue"> &lt;<span>p</span>&gt;<p class="black">This is a paragraph.</p>&lt;/<span>p</span>&gt; </pre>
+					<br>
+					<p>The blue angle brackets are called <b>tags</b>. Most <i>HTML Elements</i> are composed of <b>Open</b> and <b>Closed tags</b>.</p>
+					<q cite="">HTML is an easy to learn programming language.</q>
+					<br>
+				</section>
+				<br>
+				<!-- Third section -->
+				<section>
+					<h3 id="ch3">Why Learn HTML?</h3>
+					<p>HTML is a programming language used for building websites. Its usually a pre-requisite in learning other languages. The reason being that it's the most basic and simplest form of programming. As a programmer, it's a good starting point if you are new to programming in general. As a matter of fact, you can be a programmer without any knowledge of HTML. Yeah! the reason is because every programming language is <em>unique</em>.</p>
+					<q cite="">Learning HTML is not a <b>must</b> but it's a useful skill to have.</q>
+					<br>
+				</section>
+				<br>
+				<!-- Fourth section -->
+				<section>
+					<h3 id="ch4">Getting Started with HTML</h3>
+					<p>Over the years HTML has evolved. The current version of HTML is referred to as HTML5. It's normal practice for languages to get updated in programming. As a developer you are going to come across this aspect of programming languages alot and it's part of what being a developer is all about.</p>
+					<br>
+					<aside>To get started coding in HTML you need a <em>Text-editor</em>. Get a text-editor on your device.</aside>
+					<p>A <em>Text-editor</em> is a text processing app. It's any software that edits plain text. e.g Notepad, Notepad++, QuickEdit, Atom, VS Code e.t.c. They are used to create HTML files with the .html extension.</p>
+					<br>
+					<p>There are alot of options out there. I would like to recommmend using <a href="https://atom.io/" target="_blank">Atom</a> cause I use Atom on my PC and <a href="https://atom.io/" target="_blank">QuickEdit</a> on my mobile phone.</p>
+					<q class="clearing" cite="">Choosing a Text-editor is like choosing a car. Choose wisely.</q>
+					<br>
+				</section>
+				<br>
+				<!-- Fifth section -->
+				<section>
+					<h3 id="ch4">Create, Edit and Save</h3>
+					<p>Creating an HTML document is very easy.</p>
+					<ol class="list">
+						<li>Open the Text-editor of your choice.</li>
+						<li>Create a new file.</li>
+						<li>Save the file with <i>.html</i> extension instead of <i>.txt</i></li>
+					</ol>
+					<p>Editing an HTML document requires you to write codes in the file you just created. Let's write a simple message "Hello World" to the browser.</p>
+					<pre class="blue">
+&lt;<span>!DOCTYPE html</span>&gt;
+&lt;<span>html</span>&gt;
+&lt;<span>head</span>&gt;
+&lt;<span>title</span>&gt;<p class="black">My first Webpage</p>&lt;<span>/title</span>&gt;
+&lt;<span>/head</span>&gt;
+&lt;<span>body</span>&gt;
+&lt;<span>h1</span>&gt;<p class="black">Hello World!</p>&lt;<span>/h1</span>&gt;
+&lt;<span>/body</span>&gt;
+&lt;<span>/html</span>&gt;
+					</pre>
+					<br>
+					<br>
+					<aside>Every HTML element in the example has an opening and closing tag except from the DOC-TYPE tag</aside>
+					<p>Ensure to save the file before exiting the Text-editor. Open the file in your browser and the message "Hello World!" will be displayed as a <i>header 1</i> text.</p>
+					<p>In this section of the course we were only interested in how to Create, Edit and Save HTML documents. Don't worry yourself too much about what the tags represent. In later sections I'll talk about HTML Elements in details.</p>
+					 <br>
+				</section>
+			<br>
+			<a href="HTML and CSS for Beginners(2).html"><button class="btn btn-success" style="float:right;" type="button" name="button">Next Page</button></a>
+			<br>
+			<br>
+		</main>
+  	<footer>
+			<svg>
+				<h3>Contacts</h3>
+				<br>
+					<a href="#"><img src="icons8-whatsapp.svg" width="60px" height="60px" alt=""></a>| 08161362581 <br>
+					<a href="#"><img src="icons8-youtube.svg" width="60px" height="60px" alt=""></a>| ExenexMedia <br>
+			</svg>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
